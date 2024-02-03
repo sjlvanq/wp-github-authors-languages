@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: GitHub Author's Programming Languages
-Description: Displays a summary of the programming languages used by the author in their GitHub projects. This summary includes the count of the primary programming language for each public repository and is shown on the author's posts page.
+Description: Wordpress plugin. Displays a summary of the programming languages used by the author in their public GitHub projects. This is displayed in the description field of the author's posts page.
 Version: dev-1.0
 Requires PHP: 7.0
 Author: Silvano Emanuel Roqués
