@@ -63,7 +63,6 @@ function plggithub_create_summary_graph($languages_sum){
 	$graph = '<div class="chart">';
 	//$total = array_sum($languages_sum);
 	$max = max($languages_sum);
-	echo $max;
 	foreach ( $languages_sum as $k => $v ){
 		$graph.='<div style="width: '.$v*100/$max.'%">'.$k.'</div>';
 	}
