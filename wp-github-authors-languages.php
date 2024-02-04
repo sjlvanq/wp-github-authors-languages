@@ -75,8 +75,8 @@ function plggithub_create_summary_graph($languages_sum){
 function plggithub_show_summary_graph($desc){
     if (is_author()) { // author's posts page
 		$languages_sum = plggithub_getlanguages(the_author());
+		return plggithub_create_summary_graph($languages_sum);
 	}
-    return plggithub_create_summary_graph($languages_sum);
 }
 
 add_filter('get_the_archive_description', 'plggithub_show_summary_graph');
